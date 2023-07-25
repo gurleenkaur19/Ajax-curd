@@ -89,6 +89,7 @@
             var email = $("#email").val();
             var mobile = $("#mobile").val();
 
+            console.log("hello");
             $.ajax({
                 url: "backend1.php",
                 type: "POST",
