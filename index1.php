@@ -117,7 +117,7 @@
                 url: "backend1.php",
                 type: "POST",
                 data: {
-                    readRecord: readRecord
+                    readRecord:readRecord,
                 },
                 success: function(data, status) {
                     $('#records_contant').html(data);
@@ -143,7 +143,8 @@
         
                 },
                 success: function(data, status) {
-                    $('#records_contant').html(data);
+                    addRecord();
+                    // $('#records_contant').html(data);
                     // console.log(data);
                 }
             });
