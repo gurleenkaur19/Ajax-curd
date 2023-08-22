@@ -143,7 +143,7 @@
         
                 },
                 success: function(data, status) {
-                    addRecord();
+                    readRecords();
                     // $('#records_contant').html(data);
                     // console.log(data);
                 }
